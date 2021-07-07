@@ -1,6 +1,6 @@
 let productName = document.querySelector("#title").innerText;
 
-let apiUrl = "http://amazon-price-compare.herokuapp.com/items/";
+let apiUrl = "https://amazon-price-compare.herokuapp.com/items/";
 
 (async function (url, search) {
 	let urlSearch = encodeURIComponent(search);
