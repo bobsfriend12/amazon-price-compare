@@ -1,0 +1,18 @@
+{
+	"name": "Amazon Price Compare",
+	"description": "Compares amazon price to manufacturer price.",
+	"author": "bobsfriend12",
+	"homepage_url": "https://github.com/bobsfriend12/amazon-price-compare",
+	"version": "0.0.1",
+	"manifest_version": 3,
+	"action": {
+		"default_popup": "popup.html",
+		"default_title": "Amazon price compare"
+	},
+	"content_scripts": [
+		{
+			"matches": ["https://*.amazon.com/*"],
+			"js": ["content.js"]
+		}
+	]
+}
