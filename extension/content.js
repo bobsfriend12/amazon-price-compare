@@ -1,12 +1,15 @@
 let productName = document.querySelector("#title").innerText;
 
 let apiUrl = "https://amazon-price-compare.herokuapp.com/items/";
+// let apiUrl = "http://localhost:3000/items/";
 
 (async function (url, search) {
 	let urlSearch = encodeURIComponent(search);
 	const response = await (await fetch(url + urlSearch)).json();
 
 	let moreItems = true;
+
+	console.log(response);
 
 	for (i = 0; moreItems === true; i++) {
 		const curItem = response["item" + i];
@@ -15,7 +18,7 @@ let apiUrl = "https://amazon-price-compare.herokuapp.com/items/";
 			curItem.manufacturer == false ||
 			curItem.link == false
 		) {
-			break;
+			continue;
 		}
 
 		const priceTable = document.querySelector("#price > table > tbody");
