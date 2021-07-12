@@ -1,4 +1,4 @@
-# Amazon Price Compare
+# ![logo](https://github.com/bobsfriend12/amazon-price-compare/blob/v1.0/extension/img/logo1024.png?raw=true)Amazon Price Compare
 
 This is a chrome extension that will add prices from other retailers to amazon product listings.
 
@@ -6,11 +6,21 @@ This is a chrome extension that will add prices from other retailers to amazon p
 
 This extension is not in the chrome extension store, so to install it you need to sideload it.
 
+### Chrome
+
 Make sure you have the latest `extension.crx` file from the releases page.
 
 1. Go to the extensions page. Click the three dots in the corner under More Tools click Extensions.
 2. Enable Developer Mode. (A toggle in the top right corner.)
 3. Drag the `extension.crx` onto the extensions page. (Make sure it says Drop to Install.)
+
+### Firefox
+
+First download and unzip the github repo by click clone and download as zip.
+
+1. Go to [about:debugging](about:debugging) in firefox. And click on "This Firefox" in the sidebar"
+2. Click "Load Temporary Add-on"
+3. Go into the folder that you extracted earlier go to the `extension` folder and chose `manifest.json`
 
 ## Usage
 
