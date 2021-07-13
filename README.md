@@ -1,4 +1,6 @@
-# ![logo](https://github.com/bobsfriend12/amazon-price-compare/blob/v1.0/extension/img/logo1024.png?raw=true)Amazon Price Compare
+<img src="https://github.com/bobsfriend12/amazon-price-compare/raw/v1.0/extension/img/logo1024.png?raw=true" alt="logo" style="max-width: 128px;">
+
+# Amazon Price Compare
 
 This is a chrome extension that will add prices from other retailers to amazon product listings.
 
