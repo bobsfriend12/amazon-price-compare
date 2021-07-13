@@ -1,4 +1,4 @@
-<img src="https://github.com/bobsfriend12/amazon-price-compare/raw/v1.0/extension/img/logo1024.png?raw=true" alt="logo" style="max-width: 128px;">
+<img src="https://github.com/bobsfriend12/amazon-price-compare/raw/v1.0/extension/img/logo1024.png?raw=true" alt="logo" width="128px">
 
 # Amazon Price Compare
 
